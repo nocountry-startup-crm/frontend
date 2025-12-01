@@ -1,9 +1,11 @@
 import { BrowserRouter } from "react-router";
 import { AppRouter } from "./shared/routing/AppRouter";
-import "./App.css";
 import { ConfigProvider, theme } from "antd";
 import { StyleProvider } from "@ant-design/cssinjs";
 import { useLayoutStore } from "./store/useThemeStore";
+
+import "./shared/utils/i18n";
+import "./App.css";
 
 function App() {
   const { isDark } = useLayoutStore();

@@ -1,0 +1,23 @@
+{
+  "name": "Name",
+  "company": "Company",
+  "funnel_stage": "Funnel Stage",
+  "tags": "Tags",
+  "last_contact": "Last Contact",
+  "search_placeholder": "Search by name, email, or tag...",
+  "funnel_stage_option_1": "Negotiating",
+  "funnel_stage_option_2": "Won",
+  "funnel_stage_option_3": "Contacted",
+  "tag_option_1": "Enterprise",
+  "tag_option_2": "Active Client",
+  "tag_option_3": "High-Priority",
+  "source": "Source",
+  "source_option_1": "Website",
+  "source_option_2": "Email",
+  "source_option_3": "Referral",
+  "save_view": "Save View",
+  "contacts": "Contacts",
+  "contacts_description": "Manage and segment your leads and customers.",
+  "export": "Export",
+  "add_contact": "Add Contact"
+}

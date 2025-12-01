@@ -1,16 +1,28 @@
-# React + Vite
+# 🧩 Startup CRM
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Startup CRM** es una solución diseñada para startups que buscan gestionar de manera eficiente las relaciones con leads y clientes. Este sistema inteligente integra herramientas de comunicación como **WhatsApp** y **correo electrónico**, permitiendo gestionar conversaciones en tiempo real, automatizar seguimientos y segmentar contactos de manera intuitiva. La aplicación también está enfocada en mejorar la productividad de los equipos de ventas y soporte, ofreciendo una interfaz sencilla y colaborativa.
 
-Currently, two official plugins are available:
+## Características Principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Gestión de Contactos y Segmentación**: Los usuarios pueden organizar y segmentar contactos según su estado en el embudo de ventas, como leads activos, clientes en seguimiento, entre otros.
+- **Integración de Canales de Comunicación**: Con integración directa a la **API de WhatsApp Cloud** y **API SMTP/Brevo**, se centralizan las conversaciones y correos electrónicos, mejorando la interacción con los clientes.
 
-## React Compiler
+- **Automatización de Seguimientos y Tareas**: El sistema permite configurar recordatorios automáticos para tareas pendientes, asegurando que los usuarios no pierdan de vista los seguimientos importantes.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- **Panel de Métricas y Análisis**: Visualización de métricas clave y KPIs como la cantidad de **contactos activos**, **mensajes enviados** y la **tasa de respuesta** para facilitar la toma de decisiones.
 
-## Expanding the ESLint configuration
+- **Exportación de Datos**: Los usuarios pueden exportar datos en formatos **CSV** o **PDF** para análisis adicionales o informes internos.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Personalización de Etiquetas y Filtros**: El sistema permite configurar etiquetas personalizadas, vistas y filtros guardados para facilitar el acceso a la información relevante.
+
+- **Gestión de Estado con Zustand**: Se utiliza **Zustand**, una librería ligera y sencilla de gestión de estado en el frontend, para manejar el estado global de la aplicación de manera eficiente y con un mínimo de código.
+
+## Tecnologías Utilizadas
+
+**Frontend:**
+
+- **React.js**: Framework para la construcción de interfaces de usuario interactivas y dinámicas.
+- **Ant Design**: Framework UI que proporciona componentes preconstruidos y estilos visuales consistentes.
+- **i18next**: Sistema de internacionalización para soportar múltiples idiomas (Inglés y Español).
+- **React Router**: Para el manejo de rutas y navegación dentro de la aplicación.
+- **Zustand**: Librería para la gestión de estado global de forma sencilla y sin la sobrecarga de otros manejadores más complejos.

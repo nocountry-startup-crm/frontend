@@ -1,0 +1,23 @@
+{
+  "name": "Nombre",
+  "company": "Compañía",
+  "funnel_stage": "Etapa del embudo",
+  "tags": "Etiquetas",
+  "last_contact": "Último contacto",
+  "search_placeholder": "Buscar por nombre, correo electrónico o etiqueta...",
+  "funnel_stage_option_1": "Negociando",
+  "funnel_stage_option_2": "Ganado",
+  "funnel_stage_option_3": "Contactado",
+  "tag_option_1": "Empresa",
+  "tag_option_2": "Cliente Activo",
+  "tag_option_3": "Alta Prioridad",
+  "source": "Fuente",
+  "source_option_1": "Sitio Web",
+  "source_option_2": "Correo Electrónico",
+  "source_option_3": "Recomendación",
+  "save_view": "Guardar Vista",
+  "contacts": "Contactos",
+  "contacts_description": "Gestiona y segmenta tus prospectos y clientes.",
+  "export": "Exportar",
+  "add_contact": "Añadir Contacto"
+}

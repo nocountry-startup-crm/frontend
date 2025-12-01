@@ -1,6 +1,7 @@
 import { Button, Layout, theme } from "antd";
 import { MenuFoldOutlined, MenuUnfoldOutlined, MoonOutlined, SunOutlined } from "@ant-design/icons";
 import { useLayoutStore } from "../../store/useThemeStore";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
 const { Header: HeaderAnt } = Layout;
 
@@ -23,6 +24,7 @@ export const Header = () => {
         }
         onClick={toggleCollapse}
       />
+      <LanguageSwitcher />
       <Button
         className="mr-6"
         type="text"
